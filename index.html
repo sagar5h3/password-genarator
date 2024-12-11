@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passwordgenator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+<div  class="all">  
+    <div class="copy">
+        
+    <h1 id="newpass" ></h1>
+    <i class="bx bxs-copy" id="copy"></i>
+    </div>
+    <input type="range" name="" min="4" max="10" value="6" id="range">
+    <p id="rangeval"></p>
+       <div>
+     <input type="checkbox" name="" id="cap" class="check">
+     <label for="cap" class="check">capital letters</label>
+     <br>
+     <input type="checkbox" name="" id="sma" class="check">
+     <label for="sma" class="check">small letters</label>
+     <br>
+     <input type="checkbox" name="" id="num" class="check">
+     <label for="num" class="check">numbers</label>
+     <br>
+     <input type="checkbox" name="" id="char" class="check">
+     <label for="char" class="check">symbols</label>
+     <br>
+
+    </div>
+    <br>
+   
+<button id="genpass">Genearte password</button>
+        <script src="./index.js"></script>
+</div>
+</body>
+</html>

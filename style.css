@@ -1,0 +1,57 @@
+.copy{
+    display:flex ;
+    
+}
+
+#newpass{
+    width: 10em;
+    height: 40px;
+    background: whitesmoke;
+    padding-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#copy{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.all{
+  background-color:seagreen;
+  width: 40em;
+  height: 25em;
+  border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 10px 10px rgba(0, 0, 0, 0.372) ;
+}
+
+
+#genpass{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 8px;
+}
+
+body{
+    background-color: rgba(255, 228, 196, 0.567);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#rangeval{
+    background-color: whitesmoke;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
